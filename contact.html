@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Vanitha Nanaiah | Technical Writer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Analytics (replace with your ID) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<!-- Google Search Console verification -->
+<meta name="google-site-verification" content="your-verification-code" />
+
+<!-- Smooth scroll, link animation, fade effect -->
+<style>
+ html {
+   scroll-behavior: smooth;
+ }
+ @keyframes fadeSlideUp {
+   from { opacity: 0; transform: translateY(20px); }
+   to { opacity: 1; transform: translateY(0); }
+ }
+ #work-section {
+   animation: fadeSlideUp 1.5s ease-in-out both;
+ }
+ h2 {
+   position: relative;
+   animation: slideIn 0.9s ease forwards;
+   opacity: 0;
+ }
+ @keyframes slideIn {
+   from { opacity: 0; transform: translateX(-20px); }
+   to { opacity: 1; transform: translateX(0); }
+ }
+ a {
+   color: #4dd0e1;
+   text-decoration: none;
+   position: relative;
+   transition: color 0.3s ease;
+ }
+ a:hover {
+   color: #ffffff;
+ }
+ a::after {
+   content: "";
+   position: absolute;
+   width: 0%;
+   height: 2px;
+   left: 0;
+   bottom: -4px;
+   background: linear-gradient(to right, #4dd0e1, #f97316);
+   transition: width 0.4s ease;
+ }
+ a:hover::after {
+   width: 100%;
+ }
+ .emoji-bg {
+   position: absolute;
+   top: 120px;
+   right: 30px;
+   font-size: 3rem;
+   opacity: 0.05;
+   z-index: 0;
+   pointer-events: none;
+   animation: float 6s ease-in-out infinite;
+ }
+ @keyframes float {
+   0% { transform: translateY(0px); }
+   50% { transform: translateY(-15px); }
+   100% { transform: translateY(0px); }
+ }
+</style>
+</head>
+
+<body style="display: flex; flex-direction: column;">
+<div class="emoji-bg">🧠</div>
+
+<nav>
+ <div class="logo-container">
+   <!--img src="avatar.png" alt="Logo" style="width: 60px; height: 60px; border-radius: 50%;"-->
+   <strong>Vanitha Nanaiah</strong>
+ </div>
+ <div>
+   <a href="index.html">Home</a>
+   <a href="https://github.com/ShipraNanaiah/" target="_blank">GitHub</a>
+ </div>
+</nav>
+
+<main>
+ 
+ <h2>Contact</h2>
+ <ul>
+ <p><a href="mailto:vanithananaiah@gmail.com">Email</a></p>
+    <p><a href="https://www.linkedin.com/in/vanitha-chenanda-nanaiah-b900ba99/" target="_blank">Linkedin Profile</a></p>
+ </ul>
+
+ </main>
+
+<footer style="position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+height: 25px;
+  background-color: white ;
+  color: Black;
+  text-align: center;">&copy;2025 Vanitha Nanaiah</footer>
+</body>
+</html>
