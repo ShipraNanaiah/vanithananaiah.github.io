@@ -1,0 +1,6 @@
+![GitHub Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-blue)
+![Technical Writing](https://img.shields.io/badge/Role-Technical%20Writer-green)
+![Markdown](https://img.shields.io/badge/Format-Markdown-red)
+![HTML/CSS](https://img.shields.io/badge/Includes-HTML%20%26%20CSS-orange)
+![API Documentation](https://img.shields.io/badge/Focus-API%20Docs-yellow)
+![Developer Docs](https://img.shields.io/badge/Developer%20Experience-DX-9cf)
