@@ -1,5 +1,5 @@
 
-# Technical Documentation – OpenWeather API Integration
+# Technical Documentation - OpenWeather API Integration
 
 **Author:** Vanitha C N  
 **Date:** 04/07/2025  
@@ -9,7 +9,7 @@
 
 ## 1. Introduction
 
-The **OpenWeather API** provides access to global weather data — including **current conditions**, **forecasts**, **air pollution**, and **historical data**.  
+The **OpenWeather API** provides access to global weather data - including **current conditions**, **forecasts**, **air pollution**, and **historical data**.  
 It enables developers to integrate accurate meteorological information into applications for **weather dashboards**, **travel apps**, **IoT systems**, or **data analytics**.
 
 ---
@@ -25,8 +25,8 @@ Include the key in every request query string, for example:
 
 You can also specify:
 
-- `units` → `standard`, `metric`, or `imperial`  
-- `lang` → Language code (e.g., `en`, `de`, `fr`)
+- `units` ->`standard`, `metric`, or `imperial`  
+- `lang` -> Language code (e.g., `en`, `de`, `fr`)
 
 ### Base URLs
 
@@ -185,7 +185,7 @@ https://api.openweathermap.org/data/2.5/air_pollution?lat=50&lon=14&appid=YOUR_A
 | `wind.speed` | float | Wind speed |
 | `wind.deg` | integer | Wind direction (degrees) |
 | `dt` | integer | Timestamp (Unix UTC) |
-| `aqi` | integer | Air Quality Index (1–5 scale) |
+| `aqi` | integer | Air Quality Index (1-5 scale) |
 
 ---
 
@@ -210,16 +210,16 @@ https://api.openweathermap.org/data/2.5/air_pollution?lat=50&lon=14&appid=YOUR_A
 
 ## 6. Best Practices
 
-- 🔒 Always **protect your API key** from public exposure.
-- ⚙️ Use **caching** to minimize redundant API calls.
-- 🧮 **Convert timestamps** (e.g., `dt`, `sunrise`, `sunset`) to human-readable local time.
-- 🌐 Apply **units** and **lang** parameters to localize your app’s data presentation.
-- ⚠️ Implement **error handling** for HTTP codes:
-  - `401 Unauthorized` → Invalid or missing API key  
-  - `404 Not Found` → Invalid location or endpoint  
-  - `429 Too Many Requests` → Rate limit exceeded
-- 🚀 For One Call API, use the `exclude` parameter to avoid unnecessary data (e.g., `exclude=minutely,hourly`).
-- 💾 For frequent updates, implement **data caching** or **scheduled refreshes**.
+-  Always **protect your API key** from public exposure.
+-  Use **caching** to minimize redundant API calls.
+-  **Convert timestamps** (e.g., `dt`, `sunrise`, `sunset`) to human-readable local time.
+-  Apply **units** and **lang** parameters to localize your app’s data presentation.
+-  Implement **error handling** for HTTP codes:
+  - `401 Unauthorized` -> Invalid or missing API key  
+  - `404 Not Found` -> Invalid location or endpoint  
+  - `429 Too Many Requests` -> Rate limit exceeded
+-  For One Call API, use the `exclude` parameter to avoid unnecessary data (e.g., `exclude=minutely,hourly`).
+-  For frequent updates, implement **data caching** or **scheduled refreshes**.
 
 ---
 
