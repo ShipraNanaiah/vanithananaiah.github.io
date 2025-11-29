@@ -16,7 +16,8 @@ Welcome to my Technical Writer Portfolio. This repository showcases my work acro
 /style-guide.md -> My documentation style guide\
 /contact.html -> My contact details\
 /api-documentation\
-/user-guide
+/tutorials\
+/user-guides
 
 ## Skills Demonstrated
 - Technical writing (API docs, user guides, tutorials)
